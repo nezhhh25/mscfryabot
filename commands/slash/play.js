@@ -10,7 +10,7 @@ const command = new SlashCommand()
   .addStringOption((option) =>
     option
       .setName("query")
-      .setDescription("What am I looking for?")
+      .setDescription("judul Lagu? | Created by Nezh")
       .setAutocomplete(true)
       .setRequired(true)
   )
