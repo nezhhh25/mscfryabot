@@ -11,7 +11,7 @@ const { filter } = require("lodash");
 
 const command = new SlashCommand()
   .setName("help")
-  .setDescription("Shows this list")
+  .setDescription("Bantuan Command! | Created By Nezh")
   .setRun(async (client, interaction) => {
     await interaction.deferReply().catch((_) => {});
     // map the commands name and description to the embed
